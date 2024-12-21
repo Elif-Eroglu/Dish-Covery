@@ -3,3 +3,12 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #f9f9f9;
 }
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('dishcovery/public/fonts/Poppins,Quicksand/Poppins') format('truetype'); /* veya .woff, .woff2, .otf gibi dosya formatları */
+}
+
+body {
+    font-family: 'CustomFont', sans-serif;
+}
